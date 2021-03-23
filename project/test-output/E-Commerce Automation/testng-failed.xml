@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [E-Commerce Automation]">
+  <parameter name="browser" value="chrome"/>
+  <test name="E-commerce(failed)">
+    <classes>
+      <class name="project.testng">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="testFailed"/>
+          <include name="quitBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="testSkipped"/>
+        </methods>
+      </class> <!-- project.testng -->
+    </classes>
+  </test> <!-- E-commerce(failed) -->
+</suite> <!-- Failed suite [E-Commerce Automation] -->
